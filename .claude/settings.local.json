@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(npm run compile:*)",
+      "Bash(npx vsce:*)",
+      "Bash(code --list-extensions:*)",
+      "Bash(findstr:*)",
+      "Bash(code --uninstall-extension:*)",
+      "Bash(code --install-extension:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
