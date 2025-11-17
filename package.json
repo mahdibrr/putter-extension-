@@ -4,6 +4,20 @@
   "description": "AI-powered coding assistant using Puter.js - Free OpenAI API access without API keys",
   "version": "1.0.0",
   "publisher": "MahdiBR",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahdibrr/putter-extension-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mahdibrr/putter-extension-/issues"
+  },
+  "homepage": "https://github.com/mahdibrr/putter-extension-#readme",
+  "license": "MIT",
+  "icon": "resources/icon.svg",
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
