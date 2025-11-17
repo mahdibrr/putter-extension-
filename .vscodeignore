@@ -1,10 +1,38 @@
+# Build files
 .vscode/**
 .vscode-test/**
+out/test/**
+
+# Source files (we only need compiled JS)
 src/**
+**/*.ts
+**/*.map
+
+# Config files
 .gitignore
 .yarnrc
+.git/**
+.gitattributes
+.editorconfig
 vsc-extension-quickstart.md
 **/tsconfig.json
 **/.eslintrc.json
-**/*.map
-**/*.ts
+.eslintrc.json
+tsconfig.json
+
+# Documentation (keep README, CHANGELOG, LICENSE)
+SETUP.md
+
+# Dependencies
+node_modules/**
+.npmignore
+
+# Testing
+**/*.test.ts
+**/*.test.js
+.vscode-test/**
+
+# Misc
+.DS_Store
+*.vsix
+.claude/**
